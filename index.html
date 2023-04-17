@@ -25,39 +25,41 @@
             <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
         </div>
 
-        <form action="submit">
+        <form action="/">
 
             <div class="input">
                 <input type="text" placeholder="First Name" id="first-name">
-                <img src="./images/icon-error.svg" alt="Error icon" class="inactive">
+                <img src="./images/icon-error.svg" alt="Error icon" class="error-icon inactive">
                 <p class="error-message inactive">First Name cannot be empty</p>
             </div>
                 
             <div class="input">
                 <input type="text" placeholder="Last Name" id="last-name">
-                <img src="./images/icon-error.svg" alt="Error icon" class="inactive">
+                <img src="./images/icon-error.svg" alt="Error icon" class="error-icon inactive">
                 <p class="error-message inactive">Last Name cannot be empty</p>
             </div>
 
             <div class="input">
-                <input type="text" placeholder="Email Address" id="email">
-                <img src="./images/icon-error.svg" alt="Error icon" class="inactive">
+                <input type="email" placeholder="Email Address" id="email">
+                <img src="./images/icon-error.svg" alt="Error icon" class="error-icon inactive">
                 <p class="error-message inactive">Looks like this is not an email</p>
             </div>
 
             <div class="input">
                 <input type="password" placeholder="Password" id="password">
-                <img src="./images/icon-error.svg" alt="Error icon" class="inactive">
+                <img src="./images/icon-error.svg" alt="Error icon" class="error-icon inactive">
                 <p class="error-message inactive">Password cannot be empty</p>
             </div>
             
 
-            <button>CLAIM YOUR FREE TRIAL</button>
+            <button class="submit">CLAIM YOUR FREE TRIAL</button>
 
             <p class="footer">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
 
         </form>
 
     </main>
+
+    <script src="./main.js"></script>
 </body>
 </html>
