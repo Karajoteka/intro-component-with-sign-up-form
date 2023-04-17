@@ -1,0 +1,57 @@
+body {
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/bg-intro-desktop.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.main-info {
+  text-align: left;
+  margin: 270px 50px 0 200px;
+}
+
+.main-info h1 {
+  font-size: 3.5rem;
+  padding-right: 50px;
+  margin-bottom: 20px;
+}
+
+.main-info p {
+  padding: 0;
+  padding-right: 20px;
+  font-size: 1.2rem;
+}
+
+.offer {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  width: 70%;
+  height: 50px;
+  padding: 12px;
+  margin-top: 100px;
+}
+
+form {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  margin-top: 180px;
+  margin-bottom: 150px;
+  width: 70%;
+}
+
+form .input {
+  margin: 10px;
+}
+
+form button {
+  width: 96%;
+}

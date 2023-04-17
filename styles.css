@@ -23,16 +23,16 @@ body {
     align-items: center;
     justify-content: center;
     background-color: var(--red);
-    background-image: url(./images/bg-intro-mobile.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .container {
     width: 340px;
     text-align: center;
     margin-bottom: 50px;
+    background-image: url(./images/bg-intro-mobile.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .main-info {
